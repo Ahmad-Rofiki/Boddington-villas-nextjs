@@ -58,7 +58,6 @@ export default function VillaLandingPage() {
           transition={{ duration: 1 }}
           className="relative z-10 max-w-4xl text-center"
         >
-
           <h1 className="text-4xl md:text-6xl font-semibold tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] mb-5">
             Boddington <span className="italic">Villas</span>
           </h1>
@@ -84,7 +83,7 @@ export default function VillaLandingPage() {
               WhatsApp
             </a>
           </div>
-          <p className="mt-5">istrikuu sayaaang,  ini yang mass buatt</p>
+          <p className="mt-5">istrikuu sayaaang, ini yang mass buatt</p>
           <p className="mt-5">create By Ahmad Rofiki a.k.a IkyDevs</p>
         </motion.div>
       </section>
@@ -327,6 +326,7 @@ export default function VillaLandingPage() {
       {/* FOOTER */}
       <footer className="py-10 text-center text-neutral-500 text-sm">
         © 2026 Private Villa Bali · All Rights Reserved
+        <span>Create By IkyDevs</span>
       </footer>
 
       <style jsx global>{`
