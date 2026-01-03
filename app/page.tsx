@@ -56,14 +56,13 @@ export default function VillaLandingPage() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative z-10 -top-80 max-w-4xl text-center"
+          className="relative z-10 -top-50 max-w-4xl text-center"
         >
           <h1>Welcome to</h1>
           <h1 className="text-4xl md:text-6xl font-semibold tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] mb-2">
             Boddington <span className="italic">Villas</span>
           </h1>
           <p>Luxury Private Villa In Bali</p>
-
         </motion.div>
       </section>
 
