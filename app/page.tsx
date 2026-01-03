@@ -293,6 +293,8 @@ export default function VillaLandingPage() {
               name="date"
               onChange={handleChange}
               className="input"
+              placeholder="pilih tanggal booking"
+              min={new Date().toISOString().split("T")[0]}
             />
             <input
               name="nights"
