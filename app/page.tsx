@@ -58,6 +58,7 @@ export default function VillaLandingPage() {
           transition={{ duration: 1 }}
           className="relative z-10 max-w-4xl text-center"
         >
+          <h1 className="text-6xl font-bold">SAYAANG INI MAS YANG BUATTT</h1>
           <h1 className="text-4xl md:text-6xl font-semibold tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] mb-5">
             Boddington <span className="italic">Villas</span>
           </h1>
