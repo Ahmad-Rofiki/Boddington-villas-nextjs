@@ -94,12 +94,30 @@ export default function VillaLandingPage() {
             className="grid grid-cols-2 md:grid-cols-3 gap-6"
           >
             {[
-              "https://images.unsplash.com/photo-1613553483056-c8cb4c5d2a7b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW50ZXJpb3IlMjB2aWxsYXxlbnwwfHwwfHx8MA%3D%3D",
-              "https://images.unsplash.com/photo-1560448075-bb485b067938",
-              "https://images.unsplash.com/photo-1613553474179-e1eda3ea5734?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
-              "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-              "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+              "/images/1.jpeg",
+              "/images/2.jpeg",
+              "/images/3.jpeg",
+              "/images/4.jpeg",
+              "/images/5.jpeg",
+              "/images/6.jpeg",
+              "/images/7.jpeg",
+              "/images/8.jpeg",
+              "/images/9.jpeg",
+              "/images/10.jpeg",
+              "/images/11.jpeg",
+              "/images/12.jpeg",
+              "/images/13.jpeg",
+              "/images/14.jpeg",
+              "/images/15.jpeg",
+              "/images/16.jpeg",
+              "/images/17.jpeg",
+              "/images/18.jpeg",
+              "/images/19.jpeg",
+              "/images/20.jpeg",
+              "/images/21.jpeg",
+              "/images/22.jpeg",
+              "/images/23.jpeg",
+              "/images/11.jpeg",
             ].map((src, i) => (
               <motion.div
                 key={i}
@@ -120,7 +138,7 @@ export default function VillaLandingPage() {
                 className="overflow-hidden rounded-2xl"
               >
                 <img
-                  src={`${src}?auto=format&fit=crop&w=900&q=80`}
+                  src={`${src}`}
                   alt="Private Villa Bali"
                   className="h-full w-full object-cover"
                 />
