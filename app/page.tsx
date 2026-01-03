@@ -84,7 +84,8 @@ export default function VillaLandingPage() {
               WhatsApp
             </a>
           </div>
-          <p>istrikuu sayaaang,  ini yang mass buatt</p>
+          <p className="mt-5">istrikuu sayaaang,  ini yang mass buatt</p>
+          <p className="mt-5">create By Ahmad Rofiki a.k.a IkyDevs</p>
         </motion.div>
       </section>
 
