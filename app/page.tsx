@@ -45,8 +45,7 @@ export default function VillaLandingPage() {
       <section
         className="min-h-screen flex items-center justify-center px-6 md:px-16 relative"
         style={{
-          backgroundImage:
-            "url(https://images.unsplash.com/photo-1688653802629-5360086bf632?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+          backgroundImage: "url('/images/1.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
