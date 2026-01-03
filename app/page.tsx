@@ -288,6 +288,7 @@ export default function VillaLandingPage() {
               placeholder="No WhatsApp"
               className="input"
             />
+            <label className="text-sm text-neutral-400">Tanggal Check-in</label>
             <input
               type="date"
               name="date"
