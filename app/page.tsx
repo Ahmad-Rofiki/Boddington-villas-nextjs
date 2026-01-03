@@ -56,33 +56,14 @@ export default function VillaLandingPage() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative z-10 max-w-4xl text-center"
+          className="relative z-10 -top-80 max-w-4xl text-center"
         >
-          <h1 className="text-4xl md:text-6xl font-semibold tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] mb-5">
+          <h1>Welcome to</h1>
+          <h1 className="text-4xl md:text-6xl font-semibold tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] mb-2">
             Boddington <span className="italic">Villas</span>
           </h1>
-          <h1 className="text-2xl md:text-2xl font-semibold tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-            Luxury Private Villa <span className="italic">in Bali</span>
-          </h1>
-          <p className="mt-6 text-neutral-200 max-w-2xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
-            Rasakan ketenangan, privasi, dan kemewahan dalam satu villa
-            eksklusif dengan pemandangan tropis Bali.
-          </p>
-          <div className="mt-10 flex justify-center gap-4">
-            <a
-              href="#booking"
-              className="px-8 py-3 rounded-full bg-white text-black font-medium"
-            >
-              Book Now
-            </a>
-            <a
-              href="https://wa.me/6281326305609"
-              target="_blank"
-              className="px-8 py-3 rounded-full border border-white/30"
-            >
-              WhatsApp
-            </a>
-          </div>
+          <p>Luxury Private Villa In Bali</p>
+
         </motion.div>
       </section>
 
@@ -288,9 +269,9 @@ export default function VillaLandingPage() {
               placeholder="No WhatsApp"
               className="input"
             />
-            <div>
+            <div className="flex justify-center items-center">
               <label className="text-sm text-neutral-400 items-center text-center mr-2">
-                Tanggal Check-in : 
+                Tanggal Check-in :
               </label>
               <input
                 type="date"
