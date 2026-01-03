@@ -288,14 +288,18 @@ export default function VillaLandingPage() {
               placeholder="No WhatsApp"
               className="input"
             />
-            <label className="text-sm text-neutral-400">Tanggal Check-in</label>
-            <input
-              type="date"
-              name="date"
-              onChange={handleChange}
-              className="input"
-              min={new Date().toISOString().split("T")[0]}
-            />
+            <div>
+              <label className="text-sm text-neutral-400 items-center text-center mr-2">
+                Tanggal Check-in : 
+              </label>
+              <input
+                type="date"
+                name="date"
+                onChange={handleChange}
+                className="input"
+                min={new Date().toISOString().split("T")[0]}
+              />
+            </div>
             <input
               name="nights"
               onChange={handleChange}
