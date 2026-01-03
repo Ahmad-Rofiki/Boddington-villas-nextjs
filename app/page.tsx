@@ -83,8 +83,6 @@ export default function VillaLandingPage() {
               WhatsApp
             </a>
           </div>
-          <p className="mt-5">istrikuu sayaaang, ini yang mass buatt</p>
-          <p className="mt-5">create By Ahmad Rofiki a.k.a IkyDevs</p>
         </motion.div>
       </section>
 
@@ -324,9 +322,9 @@ export default function VillaLandingPage() {
       </section>
 
       {/* FOOTER */}
-      <footer className="py-10 text-center text-neutral-500 text-sm">
+      <footer className="py-10 text-center text-neutral-500 text-sm flex justify-center items-center gap-2">
         © 2026 Private Villa Bali · All Rights Reserved
-        <span>Create By IkyDevs</span>
+        <span> Create By IkyDevs</span>
       </footer>
 
       <style jsx global>{`
